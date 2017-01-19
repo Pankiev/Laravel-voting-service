@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="phpunit C:\Users\Pankiev\Documents\Laravel-voting-service\LaravelTryout\tests" />
+      <option name="arguments" value="D:\Programy\XAMPP\php\phpunit --configuration C:\Users\Pankiev\Documents\Laravel-voting-service\LaravelTryout\phpunit.xml C:\Users\Pankiev\Documents\Laravel-voting-service\LaravelTryout\tests" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
