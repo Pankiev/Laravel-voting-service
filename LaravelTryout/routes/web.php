@@ -15,10 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('users', ['uses' => 'UsersController@returnDataView']);
-
+/*
+Route::get('users', ['uses' => 'UsersController@index']);
 Route::get('users/create', ['uses' => 'UsersController@create']);
 Route::post('users', ['uses' => 'UsersController@store']);
+*/
+Route::resource('users', 'UsersController');
 
 Auth::routes();
 
