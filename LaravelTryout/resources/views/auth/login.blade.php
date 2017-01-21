@@ -47,7 +47,16 @@
                                 </div>
                             </div>
                         </div>
-
+                        @if(isset($error))
+                            <div>
+                                <label for="nickname" class="col-md-4 control-label"></label>
+                                <div>
+                                    <span class="help-block">
+                                        <strong style="color:darkred;">{{ $error }}</strong>
+                                    </span>
+                                </div>
+                            </div>
+                        @endif
                         <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">

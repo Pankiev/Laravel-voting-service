@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 
@@ -40,6 +41,13 @@ class LoginController extends Controller
 
     public function login(Request $request)
     {
-        return redirect('users/'.$request->input('nickname'));
+        $authenticated = \Auth::attempt(
+            ['nickname' => $request->input('nickname'),
+            'password' => $request->input('password')]);
+
+        if($authenticated)
+            return redirect('users/'.$request->input('nickname'));
+        $error = 'These Credentials do not match our records';
+        return view('auth.login', compact('error'));
     }
 }
