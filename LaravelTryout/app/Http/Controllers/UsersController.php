@@ -16,12 +16,12 @@ class UsersController extends Controller
 
     public function create()
     {
-        return view('myViews.users.create');
+        return redirect('register');
     }
 
-    public function store(Request $request)
+    public function show()
     {
-        User::create($request->all());
-        return "success";
+        return view('myViews.users.user');
     }
+
 }

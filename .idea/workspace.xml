@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6901e94b-4c3a-4d5c-8a31-9a2a5af1e161" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LaravelTryout/resources/views/auth/successfulRegister.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/Auth/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/Auth/RegisterController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/app/User.php" afterPath="$PROJECT_DIR$/LaravelTryout/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/LaravelTryout/resources/views/auth/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/LaravelTryout/resources/views/auth/register.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LaravelTryout/routes/web.php" afterPath="$PROJECT_DIR$/LaravelTryout/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -119,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LaravelTryout/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -192,13 +186,13 @@
         <option value="$PROJECT_DIR$/LaravelTryout/database/migrations/2017_01_19_135249_create_users_answers_table.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/database/migrations/2017_01_19_135118_create_questions_answers_table.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/app/User.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/resources/views/auth/successfulRegister.blade.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/LaravelTryout/routes/web.php" />
+        <option value="$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php" />
       </list>
     </option>
   </component>
@@ -468,12 +462,12 @@
       <updated>1484830134519</updated>
       <workItem from="1484830136353" duration="4353000" />
       <workItem from="1484950688396" duration="4026000" />
-      <workItem from="1484996431832" duration="2048000" />
+      <workItem from="1484996431832" duration="2441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10427000" />
+    <option name="totallyTimeSpent" value="10820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -856,21 +850,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LaravelTryout/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LaravelTryout/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
