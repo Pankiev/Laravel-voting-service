@@ -5,18 +5,18 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Create new question</div>
+                    <div class="panel-heading">Add new answer</div>
                     <div class="panel-body">
-                        {!! Form::open(array('url' => url('/questions'), 'class' => 'form-horizontal')) !!}
+                        {!! Form::open(array('url' => url('questions/'.$question->id.'/answers'), 'class' => 'form-horizontal')) !!}
                         <div class="form-group">
-                            {!! Form::label('content', 'Question', array('class' => 'col-md-4 control-label')) !!}
+                            {!! Form::label('answer', 'New Answer', array('class' => 'col-md-4 control-label')) !!}
                             <div class="col-md-6">
-                                {!! Form::text('content', '', array('class' => 'form-control')) !!}
+                                {!! Form::text('answer', '', array('class' => 'form-control')) !!}
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
-                                {!! Form::submit('Create', array('class' => 'btn btn-primary')) !!}
+                                {!! Form::submit('Add', array('class' => 'btn btn-primary')) !!}
                             </div>
                         </div>
                         {!! Form::close() !!}

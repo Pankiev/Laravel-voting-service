@@ -9,9 +9,11 @@
         <div class="row">
             @foreach($questions as $question)
                 <div class="col-md-8 col-md-offset-2">
-                    {{$question->content}}@break
+
+                    <a href="{{url('questions/'.$question->id)}}">{{$question->content}}</a>
                 </div>
             @endforeach
+
         </div>
     </div>
 

@@ -12,11 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('questions');
 });
 
 Route::resource('users', 'UsersController', ['except' => ['store', 'update']]);
 Route::resource('questions', 'QuestionsController');
+Route::resource('questions.answers', 'QuestionsAnswersController');
+Route::resource('users.answers', 'UsersAnswersController', ['except' => ['create', 'update', 'edit', 'show', 'delete']]);
 
 Route::get('questions/create', 'QuestionsController@create')->middleware('auth');
 
