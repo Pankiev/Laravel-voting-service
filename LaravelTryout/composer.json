@@ -10,13 +10,15 @@
         "barryvdh/laravel-ide-helper": "^2.2",
         "barryvdh/laravel-debugbar": "^2.3",
         "phpunit/phpunit": "5.7.5",
-        "doctrine/dbal": "^2.5"
+        "doctrine/dbal": "^2.5",
+        "laravelcollective/html": "^5.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "symfony/css-selector": "3.1.*",
-        "symfony/dom-crawler": "3.1.*"
+        "symfony/dom-crawler": "3.1.*",
+        "filp/whoops": "^2.1"
     },
     "autoload": {
         "classmap": [

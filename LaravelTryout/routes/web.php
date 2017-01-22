@@ -15,12 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/*
-Route::get('users', ['uses' => 'UsersController@index']);
-Route::get('users/create', ['uses' => 'UsersController@create']);
-Route::post('users', ['uses' => 'UsersController@store']);
-*/
 Route::resource('users', 'UsersController', ['except' => ['store', 'update']]);
+Route::resource('questions', 'QuestionsController');
+
+Route::get('questions/create', 'QuestionsController@create')->middleware('auth');
 
 Auth::routes();
 
